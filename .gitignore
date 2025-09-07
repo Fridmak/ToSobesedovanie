@@ -1,0 +1,33 @@
+# Build artifacts
+bin/
+obj/
+**/bin/
+**/obj/
+
+# IDE/OS
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.DS_Store
+Thumbs.db
+
+# Local databases
+billing.db
+*.sqlite
+*.sqlite3
+*.db
+
+# EF Core migrations (exclude from repo per request)
+BillingContext.Infrastructure/Data/Migrations/
+
+# Logs/temp
+*.log
+*.tmp
+*.temp
+
+# Generated
+*/ToSobesHz.GlobalUsings.g.cs
+*/ToSobesHz.AssemblyInfo.cs
+
